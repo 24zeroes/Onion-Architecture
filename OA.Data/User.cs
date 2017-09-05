@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace OA.Data
+﻿namespace OA.Data
 {
     public class User:BaseEntity
     {

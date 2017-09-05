@@ -9,6 +9,7 @@ namespace OA.Repo
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly ApplicationContext context;
+
         private DbSet<T> entities;
         string errorMessage = string.Empty;
 
